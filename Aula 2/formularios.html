@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulários</title>
+</head>
+<body>
+  <h1>Formulários</h1>
+
+  <form method="get" action="#">
+
+    Nome: <input type="text" name="nome" required> <br/>
+    Idade: <input type="number" name="idade" min="1" max="100"> <br/>
+    Email: <input type="email" name="email"> <br/>
+    Telefone: <input type="tel" name="telefone"> <br/>
+    Cor preferida: <input type="color" name="cor"> <br/>
+    Data de nascimento: <input type="date" name="nascimento"> <br/>
+
+    Mensagem: <textarea name="mesangem" cols="30" rows="5"></textarea> <br/>
+    
+    Alergias: <br/>
+    <input type="checkbox" name="alergias" disabled> Frutos do mar<br/>
+    <input type="checkbox" name="alergias"> Amendoim<br/>
+    <input type="checkbox" name="alergias"> Picada de inseto<br/>
+    
+    Estuda:
+    <input type="radio" name="estuda"> Sim
+    <input type="radio" name="estuda"> Não
+    <br/>
+
+    Cidade:
+    <select name="cidade">
+      <option value="poa" disabled>Porto Alegre</option>
+      <option value="sp">São Paulo</option>
+      <option value="fln">Florianópolis</option>
+    </select>
+
+
+    <br/><br/>
+    <button type="submit">Enviar</button>
+  </form>
+</body>
+</html>

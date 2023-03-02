@@ -1,0 +1,13 @@
+#caixa{
+  border: inset 4pt red;
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  background: rgba(0, 255, 0, 0.1);
+}
+
+p{
+  padding: 15px;
+  margin: 2em;
+  border: solid 1pt red;
+}

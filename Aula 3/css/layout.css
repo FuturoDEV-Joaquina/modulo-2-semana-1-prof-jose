@@ -1,0 +1,19 @@
+#menu{
+  height: 25px;
+  background: #626262;
+}
+#menu > li{
+  list-style: none;
+  float: left;
+  margin: 5px;
+  border-radius: 15px;
+}
+#menu > li > a{
+  text-decoration: none;
+  color: white;
+}
+
+#menu>li:hover{
+ background: #464545;
+ transform: scale(1.5);
+}
