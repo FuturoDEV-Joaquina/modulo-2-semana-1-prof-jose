@@ -1,0 +1,15 @@
+.box{
+  height: 150px;
+}
+.half-box{
+  height: 75px;
+}
+.vermelho{
+  background: red;
+}
+.azul{
+  background: blue;
+}
+.laranja{
+  background: orange;
+}
